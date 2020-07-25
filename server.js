@@ -12,7 +12,7 @@ const axios = require("axios");
 
 const overview = require("./routes/a-overview");
 const income = require("./routes/a-income");
-const balanace = require("./routes/a-balance");
+const balance = require("./routes/a-balance");
 const cashflow = require("./routes/a-cashflow");
 const health = require("./routes/a-sectorhealth");
 const crypto = require("./routes/a-crypto-exchange");
@@ -52,15 +52,11 @@ app.use(
   })
 );
 
-
-
-
-
 // Define Routes
 app.use("/api/",
   overview,
   income,
-  balanace,
+  balance,
   cashflow,
   health,
   crypto
