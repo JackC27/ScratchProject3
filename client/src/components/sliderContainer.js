@@ -1,5 +1,5 @@
 // Create the card for each individual company// Create the list of companies
-import React, { Component, useState } from 'react';
+import React, {useState } from 'react';
 import Slider from './slider.js';
 
 export default function SliderContainer(props) {

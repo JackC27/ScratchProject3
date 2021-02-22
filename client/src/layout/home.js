@@ -9,9 +9,8 @@ import { mainListItems, secondaryListItems } from './ListItems.js';
 
 // IMPORTS FOR MATERIAL UI
 import clsx from 'clsx';
-import {CssBaseline, Drawer, Box, AppBar, Toolbar, List, ListItem, makeStyles, Typography, Divider} from '@material-ui/core';
-import {IconButton, Badge, Container, Grid, Paper, MenuIcon, ChevronLeftIcon} from '@material-ui/core';
-import {NotificationsIcon} from '@material-ui/icons/Notifications';
+import {CssBaseline, Drawer, AppBar, Toolbar, List, ListItem, makeStyles, Typography, Divider} from '@material-ui/core';
+import {IconButton, Container, Grid, Paper, MenuIcon, ChevronLeftIcon} from '@material-ui/core';
 
 
 const drawerWidth = 240;

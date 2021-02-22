@@ -1,7 +1,5 @@
-import React, { Component, useState } from 'react';
-import { makeStyles } from '@material-ui/core/styles';
-import Typography from '@material-ui/core/Typography';
-import Slider from '@material-ui/core/Slider';
+import React, { useState } from 'react';
+import { makeStyles, Slider, Typography } from '@material-ui/core/styles';
 
 const useStyles = makeStyles({
   root: {

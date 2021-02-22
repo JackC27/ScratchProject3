@@ -1,12 +1,8 @@
 // Create the card for each individual company// Create the list of companies
-import React, { Component } from "react";
-import { makeStyles } from "@material-ui/core/styles";
-import Card from "@material-ui/core/Card";
-import CardActions from "@material-ui/core/CardActions";
-import CardContent from "@material-ui/core/CardContent";
-import Button from "@material-ui/core/Button";
+import React  from "react";
+import {CardActions, CardContent, Button, Card, makeStyles} from "@material-ui/core/CardActions";
 import Typography from "@material-ui/core/Typography";
-import { Link, Redirect } from "react-router-dom";
+import { Link } from "react-router-dom";
 
 const useStyles = makeStyles({
   root: {
